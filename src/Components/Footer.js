@@ -4,7 +4,7 @@ import './footer.css';
 
 export default function Footer() {
   return (
-    <Nav className='mt-5 bg bg-dark p-4 '
+    <Nav className=' bg bg-dark p-4 '
   activeKey="/home"
   onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
 >

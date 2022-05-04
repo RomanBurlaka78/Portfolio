@@ -1,14 +1,16 @@
 import React from 'react'
-import { Tab, Nav, Col, Row, Card} from 'react-bootstrap';
+import { Tab, Nav, Col, Row, Card, Container} from 'react-bootstrap';
 import HTML from '../img/html.png';
 import CSS from '../img/css.png';
 import JS from '../img/js.png';
 import REACT from '../img/react.png';
 import PHP from '../img/php.png';
+import './TabContainer.css';
 
 export default function TabContainer() {
   return (
-    <Tab.Container className="mt-3 " id="left-tabs-example" defaultActiveKey="first">
+    <div className='tab-container'>
+          <Tab.Container className="mt-3 " id="left-tabs-example" defaultActiveKey="first">
        <h1 className='text-center text-white mt-2'>Roman Burlaka - Web<span  className='text-primary'> Developer</span></h1>
   <Row className="mt-3 p-3">
  
@@ -65,6 +67,9 @@ export default function TabContainer() {
       </Tab.Content>
     </Col>
   </Row>
-</Tab.Container>
+    </Tab.Container>
+
+    </div>
+    
   )
 }

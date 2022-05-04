@@ -1,10 +1,13 @@
-import React from 'react'
-import { Accordion, Container, Toast, ToastContainer } from 'react-bootstrap'
+import React from 'react';
+import { Accordion, Container, Toast, ToastContainer } from 'react-bootstrap';
+import './Accordion_Toast.css';
 
 export const Akordeon = () => {
   return ( 
-      <Container>
+    <div className='container-accordeon'>
+        <Container >
           <div className='row'>
+          <h3 className='text-center text-dark mb-4 p-4 '>Contact </h3>
                 <div className='col-lg-6'>
                     <Accordion defaultActiveKey="0">
         <Accordion.Item eventKey="0">
@@ -69,6 +72,9 @@ export const Akordeon = () => {
      </div>
     
       </Container>
+
+    </div>
+      
       
 
 

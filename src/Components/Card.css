@@ -3,3 +3,9 @@
     opacity: 0.78;
 
 }
+.card-container {
+    width: 100%;
+    background-color: #40f74e ;
+    opacity: 0.8;
+    overflow: hidden;
+}

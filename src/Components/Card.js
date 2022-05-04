@@ -7,9 +7,10 @@ import Markus from '../img/markus.jpg';
 
 export  const Cards = () => {
   return (
-    <div className='row mt-2'>
-       <h1 className='text-center text-white mb-4'>About my Team </h1>
-        <div className='col-lg-4 mb-3'>
+    <div className='card-container'>
+         <div className='row  '>
+       <h3 className='text-center text-white mb-4 p-4 '>About my Team </h3>
+        <div className='col-lg-4 '>
             <Container>
             <Card style={{ width: '18rem', margin: '0 auto' }}>
                 <Card.Img variant="top" src={Danilio} />
@@ -59,6 +60,10 @@ export  const Cards = () => {
         </div>
 
     </div>
+
+
+    </div>
+   
  
   )
 }

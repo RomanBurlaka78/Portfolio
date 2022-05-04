@@ -15,7 +15,7 @@ import Footer from './Components/Footer';
 function App() {
   return (
     <>
-    <body style ={{background: '#333'}}>
+    <body style ={{background: ''}}>
        <Header/>
        <TabContainer/>
        <Cards/>
